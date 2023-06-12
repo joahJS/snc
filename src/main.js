@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router/index.js'
 
 import 'vue-global-api'
-import './assets/scss/style.css'
+
 import 'remixicon/fonts/remixicon.css'
 
 import { QuillEditor } from '@vueup/vue-quill'

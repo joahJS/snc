@@ -14,25 +14,25 @@ export const useCatesStore = defineStore('cates', () => {
 
                 {
                     number: '0',
-                    thumImg: `public/images/cate/block4.jpg`,
+                    thumImg: `/assets/images/cate/block4.jpg`,
                     title: 'LADDER',
                     subTitle: '간결하면서도 도시적, 세련된 이미지',
                 },
                 {
                     number: '1',
-                    thumImg: `${upperPath}images/cate/block2.jpg`,
+                    thumImg: `/assets/images/cate/block2.jpg`,
                     title: 'SOLID',
                     subTitle: '강도가 높고, 시공이 간단함',
                 },
                 {
                     number: '2',
-                    thumImg: `${upperPath}images/cate/block3.jpg`,
+                    thumImg: `/assets/images/cate/block3.jpg`,
                     title: 'PERFORATED',
                     subTitle: '결합식으로 뒤틀림이 없으며, 강도가 높고, 시공이 간단함',
                 },
                 {
                     number: '3',
-                    thumImg: `public/images/snc_prod/prod-strut.jpg`,
+                    thumImg: `/assets/images/snc_prod/prod-strut.jpg`,
                     title: 'STRUT',
                     subTitle: 'SNC Product - STRUT',
                 },
@@ -51,9 +51,9 @@ export const useCatesStore = defineStore('cates', () => {
         {
             number: '0',
             title: ' 스팟 워싱블록(인조 화강블록)',
-            thumImg: `${upperPath}images/cate/block4.jpg`,
+            thumImg: `/assets/images/cate/block4.jpg`,
             floor: `${upperPath}`,
-            table: `${upperPath}images/cate/samhwa1.jpg`,
+            table: `/assets/images/cate/samhwa1.jpg`,
             textAll: [
                     {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
                     {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
@@ -64,9 +64,9 @@ export const useCatesStore = defineStore('cates', () => {
         {
             number: '1',
             title: ' l2, l3형 블록',
-            thumImg: `${upperPath}images/cate/block2.jpg`,
+            thumImg: `/assets/images/cate/block2.jpg`,
             floor: `${upperPath}`,
-            table: `${upperPath}images/cate/samhwa2.jpg`,
+            table: `/assets/images/cate/samhwa2.jpg`,
             textAll: [
                     {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
                     {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
@@ -77,9 +77,9 @@ export const useCatesStore = defineStore('cates', () => {
         {
             number: '2',
             title: ' U형블록',
-            thumImg: `${upperPath}images/cate/block3.jpg`,
+            thumImg: `/assets/images/cate/block3.jpg`,
             floor: `${upperPath}`,
-            table: `${upperPath}images/cate/samhwa2.jpg`,
+            table: `/assets/images/cate/samhwa2.jpg`,
             textAll: [
                     {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
                     {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
@@ -90,9 +90,9 @@ export const useCatesStore = defineStore('cates', () => {
         {
             number: '3',
             title: ' Strut',
-            thumImg: `/public/images/snc_prod/prod-strut.jpg`,
+            thumImg: `/assets/images/snc_prod/prod-strut.jpg`,
             floor: `${upperPath}`,
-            table: `/public/images/snc_prod/prod-strut.jpg`,
+            table: `/assets/images/snc_prod/prod-strut.jpg`,
             textAll: [
                     {texts: '- Single(CS4030) / Double(CD4030)'},
                     {texts: '- Channel with Slots(CSA(-(*)-(**), CSB(-(*)-(**)'},

@@ -16,6 +16,8 @@
 <script setup>
     import HeadPrimary from './components/HeadPrimary.vue'
     import FootPrimary from './components/FootPrimary.vue'
+
+    import '/public/assets/scss/style.css'
 </script> <!-- Logic Ends -->
 
 <style lang="scss" scoped>

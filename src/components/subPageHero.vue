@@ -31,17 +31,17 @@
     console.log(thisRoute)
 
     const heroSecImgs = [
-        "img02.jpg",
-        "img03.jpg",
-        "img04.jpg",
-        "img05.jpg",
-        "img06.jpg",
-        "img07.jpg",
-        "img09.jpg",
-        "img10.jpg",
-        "img12.jpg",
-        "img13.jpg",
-        "img14.jpg",
+        "/assets/images/img02.jpg",
+        "/assets/images/img03.jpg",
+        "/assets/images/img04.jpg",
+        "/assets/images/img05.jpg",
+        "/assets/images/img06.jpg",
+        "/assets/images/img07.jpg",
+        "/assets/images/img09.jpg",
+        "/assets/images/img10.jpg",
+        "/assets/images/img12.jpg",
+        "/assets/images/img13.jpg",
+        "/assets/images/img14.jpg",
     ]
 
     const callRandomImg = heroSecImgs[Math.floor(Math.random() * heroSecImgs.length)]

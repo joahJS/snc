@@ -67,14 +67,14 @@
             slideTitle: '고객의 꿈과 행복을 함께 만들어가는 기업',
             subText: 'SNC는 앞서가는 기술력과 노하우로 현재 업계 선두를 달리고 있습니다.',
             visType: 'image',
-            visSrc: 'public/images/snc_main/img_load01.jpg'
+            visSrc: '/assets/images/snc_main/img_load01.jpg'
         },
         {
             uniqueKey: 1,
             slideTitle: '고객의 꿈과 행복을 함께 만들어가는 기업',
             subText: 'SNC는 지난 수년간의 노력과 시행착오를 거치며 고객님들과 더불어 성장하였습니다.',
             visType: 'image',
-            visSrc: `public/images/snc_main/img_load02.jpg`
+            visSrc: `/assets/images/snc_main/img_load02.jpg`
         },
     ])
 </script> <!-- Logic Ends -->

@@ -2,8 +2,8 @@
     <footer id="footPrimary">
         <div class="container inner-box">
             <div class="text-center">
-                <img src="../assets/images/logo_b.png" class="w-16 mx-auto mb-1">
-                <span class="font-bold">SAMHWA</span>
+                <img src="/assets/images/logo_b.png" class="w-16 mx-auto mb-1">
+                <span class="font-bold">SNC</span>
             </div>
             <div class="self-center leading-4">
                 <p>전남 순천시 서면 구랑실재길 133(구상리 245)</p>

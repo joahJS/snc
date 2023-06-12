@@ -110,7 +110,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 0,
             cate: '인증서',
             certTtitle: '제품인증서',
-            imgUrl: `public/images/snc_cert/cert_standard.png`,
+            imgUrl: `/assets/images/snc_cert/cert_standard.png`,
             certNumber: '...',
             certDate: '2010-07-01',
             isView: false
@@ -119,7 +119,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 1,
             cate: '인증서',
             certTtitle: 'KSA certificate of approval',
-            imgUrl: `public/images/snc_cert/cert_ksa.png`,
+            imgUrl: `/assets/images/images/snc_cert/cert_ksa.png`,
             certNumber: '...',
             certDate: '2006-03-16',
             isView: false
@@ -128,7 +128,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 2,
             cate: '기타',
             certTtitle: 'ABS',
-            imgUrl: `public/images/snc_cert/cert_abs.png`,
+            imgUrl: `/assets/images/images/snc_cert/cert_abs.png`,
             certNumber: '11-55',
             certDate: '2011-06-01',
             isView: false
@@ -137,7 +137,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 3,
             cate: '기타',
             certTtitle: '...',
-            imgUrl: `public/images/snc_cert/cert_bt01.png`,
+            imgUrl: `/assets/images/images/snc_cert/cert_bt01.png`,
             certNumber: '10-0750565',
             certDate: '2007-05-13',
             isView: false
@@ -146,7 +146,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 4,
             cate: '기타',
             certTtitle: '...',
-            imgUrl: `public/images/snc_cert/cert_bt02.png`,
+            imgUrl: `/assets/images/images/snc_cert/cert_bt02.png`,
             certNumber: '10-0694841',
             certDate: '2007-04-07',
             isView: false
@@ -155,7 +155,7 @@ export const useIntrosStore = defineStore('intros', () => {
             certIndex: 5,
             cate: '기타',
             certTtitle: '...',
-            imgUrl: `public/images/snc_cert/cert_bt03.png`,
+            imgUrl: `/assets/images/images/snc_cert/cert_bt03.png`,
             certNumber: '30-0442843',
             certDate: '2007-03-05',
             isView: false

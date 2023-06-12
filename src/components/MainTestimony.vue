@@ -7,7 +7,7 @@
         <swiper id="testimonyContainer" v-bind="testimonySliderSettings">
             <swiper-slide v-for="slide in testimonySlides" :key="slide.uniqueKey" class="testimony-container">
                 <div class="testimony-overlay">
-                    <img class="testimony-picture" :src="'/images/users/' + slide.userPicture" alt="">
+                    <img class="testimony-picture" :src="slide.userPicture" alt="">
                     <h2 class="testimony-user">{{ slide.userName }}</h2>
                     <!-- <p class="testimony-workfield">{{ slide.workField }}</p> -->
                 </div>
@@ -65,7 +65,7 @@
     const testimonySlides = ref([
         {
             uniqueKey: 0,
-            userPicture: 'show1.jpg',
+            userPicture: '/assets/images/users/show1.jpg',
             userName: '하동 한산사',
             workField: '.',
             commentAbout: '다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'

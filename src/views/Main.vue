@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="main-intro-block-background">
-                        <img src="/images/intro-block/intro-block-01.jpg" alt="">
+                        <img src="/assets/images/intro-block/intro-block-01.jpg" alt="">
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="main-intro-block-background">
-                        <img src="/images/intro-block/intro-block-02.jpg" alt="">
+                        <img src="/assets/images/intro-block/intro-block-02.jpg" alt="">
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
                     </div>
 
                     <div class="main-intro-block-background">
-                        <img src="/images/intro-block/intro-block-03.jpg" alt="">
+                        <img src="/assets/images/intro-block/intro-block-03.jpg" alt="">
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="main-intro-block-background">
-                        <img src="/images/intro-block/intro-block-04.jpg" alt="">
+                        <img src="/assets/images/intro-block/intro-block-04.jpg" alt="">
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@
 
     const upperPath = '/'
 
-    const catalogUrl = `..${upperPath}catalog/catalog1.pdf`
+    const catalogUrl = `/assets/catalog/Catalog_SNC.txt`
 </script> <!-- Logic Ends -->
 
 <style lang="scss" scoped>

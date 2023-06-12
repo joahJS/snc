@@ -12,7 +12,7 @@
 
             <section id="grtBtm">
                 <div class="grt-imgs-div">
-                    <img src="/public/images/snc_intro/snc_thum.png" alt="CEO picture">
+                    <img src="/assets/images/snc_intro/snc_thum.png" alt="CEO picture">
                 </div>
                 <div class="grt-texts-div">
                     <p v-for="subItems in outItem.outTexts">{{ subItems.texts }}</p>

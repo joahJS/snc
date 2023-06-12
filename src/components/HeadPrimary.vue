@@ -3,8 +3,8 @@
         <div class="container flex justify-between items-center px-2">
             <h1 id="mainLogo">
                 <router-link to="/">
-                    <img src="../assets/images/logo_w.png" alt="mainLogo">
-                    SAMHWA </router-link>
+                    <img src="/assets/images/logo_w.png" alt="mainLogo">
+                    SNC </router-link>
             </h1>
 
             <!-- 검색기능
@@ -44,7 +44,7 @@
         </button>
 
         <router-link to="/" class="mLogo-router">
-            <img src="../assets/images/logo_w.png" alt="mainLogo" class="m_logo">
+            <img src="/assets/images/logo_w.png" alt="mainLogo" class="m_logo">
          </router-link>
     </div>
 </template> <!-- Template Ends -->
