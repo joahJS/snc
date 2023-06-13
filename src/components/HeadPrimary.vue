@@ -4,7 +4,7 @@
             <h1 id="mainLogo">
                 <router-link to="/">
                     <img src="/assets/images/snc_main/snc_logo.png" alt="mainLogo">
-                    SNC </router-link>
+                 </router-link>
             </h1>
 
             <!-- 검색기능
@@ -145,6 +145,7 @@
     font-size: 1.8rem;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 4rem;
+    padding: 0 1.75rem;
 
     > a {
         @apply flex items-center;
@@ -152,8 +153,9 @@
         gap: .5rem;
 
         img {
-            width: 2rem;
-            margin-right: .25rem;
+            width: 100%;
+            // margin-right: .25rem;
+            margin: 0 auto;
         }
     }
 }
@@ -211,6 +213,7 @@
         
         flex-direction: column;
         top: 3rem;
+        align-items: flex-start;
     }
 }
 

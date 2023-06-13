@@ -1,14 +1,31 @@
 <template>
     <footer id="footPrimary">
-        <div class="container inner-box">
+        <div class="web-common-inner inner-box">
             <div class="text-center">
-                <img src="/assets/images/snc_main/logo_ft.gif" class="w-16 mx-auto mb-1">
-                <span class="font-bold">SNC</span>
+                <img src="/assets/images/snc_main/logo_ft.png" class="w-16 mx-auto mb-1">
+                <span class="font-bold"></span>
             </div>
-            <div class="self-center leading-4">
-                <p>경상남도 김해시 유하로 201</p>
-                <p><span class="font-bold">TEL</span> : 055 - 327 - 6023</p>
-                <p><span class="font-bold">FAX</span> : 055 - 327 - 3033</p>
+            <div data-footer-texts class="self-center leading-4">
+                <p>
+                    <span class="font-bold">회사명</span>
+                    <span>SNC</span>
+                </p>
+                <p>
+                    <span class="font-bold">대표자</span>
+                    <span>김미경</span>
+                </p>
+                <p>
+                    <span class="font-bold">주소</span>
+                    <span>경상남도 김해시 유하로 201</span>
+                </p>
+                <p>
+                    <span class="font-bold">TEL</span>
+                    <span>055 - 327 - 6023</span>
+                </p>
+                <p>
+                    <span class="font-bold">FAX</span>
+                    <span>055 - 327 - 3033</span>
+                </p>
                 <br>
                 <p class="copyright">© {{ copyYear }} by 소나무정보기술, All rights reverved. </p>
             </div>
@@ -35,6 +52,27 @@
 
     .copyright {
         color: rgba(var(--font), .75);
+    }
+
+    [data-footer-texts] {
+        .font-bold {
+            @apply inline-block;
+
+            width: 2rem;
+        }
+
+        p {
+            line-height: 1.75;
+            color: rgba(var(--black), .5);
+
+            span:last-child {
+                &:before {
+                    @apply inline-block pl-1 pr-2;
+
+                    content: ':';
+                }
+            }
+        }
     }
 
     //media 반응형
