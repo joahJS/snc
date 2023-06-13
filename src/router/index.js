@@ -63,12 +63,12 @@ const routes = [
     {
         path: '/notice/:id',
         name: 'notice_in',
-        component: () => import( /* webpackChunkName: 'notice_in' */ '@/views/notice_in.vue')
+        component: () => import( /* webpackChunkName: 'notice_in' */ '@/views/Notice_in.vue')
     },
     {
         path: '/notice_wr',
         name: 'notice_wr',
-        component: () => import( /* webpackChunkName: 'notice_wr' */ '@/views/notice_wr.vue')
+        component: () => import( /* webpackChunkName: 'notice_wr' */ '@/views/Notice_wr.vue')
     },
     {
         path: '/news',
@@ -78,12 +78,12 @@ const routes = [
     {
         path: '/news_wr',
         name: 'news_wr',
-        component: () => import( /* webpackChunkName: 'News_wr' */ '@/views/news_wr.vue')
+        component: () => import( /* webpackChunkName: 'News_wr' */ '@/views/News_wr.vue')
     },
     {
         path: '/news/:id',
         name: 'news_in',
-        component: () => import( /* webpackChunkName: 'news_in' */ '@/views/news_in.vue')
+        component: () => import( /* webpackChunkName: 'news_in' */ '@/views/News_in.vue')
     },
     {
         path: '/datas',
@@ -93,12 +93,12 @@ const routes = [
     {
         path: '/data/:id',
         name: 'data_in',
-        component: () => import( /* webpackChunkName: 'data_in' */ '@/views/data_in.vue')
+        component: () => import( /* webpackChunkName: 'data_in' */ '@/views/Data_in.vue')
     },
     {
         path: '/datas_wr',
         name: 'Datas_wr',
-        component: () => import( /* webpackChunkName: 'Datas_wr' */ '@/views/datas_wr.vue')
+        component: () => import( /* webpackChunkName: 'Datas_wr' */ '@/views/Datas_wr.vue')
     },
     {
         path: '/contact',
